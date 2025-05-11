@@ -1,0 +1,53 @@
+.service-fleet-management {
+    padding: 20px;
+    background-color: #282c34;
+  }
+  
+  .fleet-actions {
+    margin-bottom: 15px;
+  }
+  
+  .fleet-actions button {
+    padding: 8px 14px;
+    background-color: #9705c8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .fleet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .fleet-table th, .fleet-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color:#3a3f47;
+  }
+  
+  
+  .vehicle-form {
+    background:#1f2937;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 500px;
+   
+  }
+  
+  .vehicle-form form input {
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 70%;
+  }
+  

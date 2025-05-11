@@ -1,0 +1,22 @@
+.admin-dashboard {
+    padding: 2rem;
+    background: #1f2937;
+     border-radius: 12px;
+  }
+  
+  .admin-nav {
+    margin-bottom: 2rem;
+  }
+  
+  .admin-nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+  }
+  
+  .admin-nav a:hover {
+    text-decoration: underline;
+  }
+  

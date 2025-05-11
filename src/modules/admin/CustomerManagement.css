@@ -1,0 +1,193 @@
+.customer-management-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.add-customer-button {
+  background-color: #bf00ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-customer-button:hover {
+  background-color: #9705c8;
+}
+
+.customer-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.customer-card {
+  background-color: #3a3f47;
+  border: 1px solid #c8e6c9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.customer-card:hover {
+  transform: scale(1.05);
+}
+
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.customer-header h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.edit-btn, .delete-btn {
+  background-color: #7a47d8;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  background-color:#6e34db;
+}
+
+.profile-details p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #1f2937;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content input, .modal-content select {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #171518;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-content button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-actions button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.modal-actions button:hover {
+  background-color: #39b63e;
+}
+
+/* Support Section */
+.support-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.support-card {
+  background-color: #3a3f47;
+  border: 1px solid #ffc107;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 400px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Analysis Section */
+.analysis-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.analysis-card {
+  background-color: #3a3f47;
+  border: 1px solid #17a2b8;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 400px;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* Keep previous styles for the 3 cards */
+.payment-card {
+  background-color: #282c34;
+  border: 1px solid #d8c6e1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.payment-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}

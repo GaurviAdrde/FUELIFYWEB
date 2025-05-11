@@ -1,0 +1,59 @@
+.request-status {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #c2d8e3;
+}
+
+.request-status h2 {
+  text-align: center;
+  color: #1d3557;
+  margin-bottom: 2rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.request-status .error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.request-status table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.request-status th,
+.request-status td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  background-color: #3a3f47;
+  text-align: center;
+}
+
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.status-badge.pending {
+  background-color: #f0ad4e; /* Orange */
+}
+
+.status-badge.accepted {
+  background-color: #5bc0de; /* Blue */
+}
+
+.status-badge.in-progress {
+  background-color: #0275d8; /* Dark Blue */
+}
+
+
+.status-badge.unknown {
+  background-color: #6c757d; /* Gray */
+}

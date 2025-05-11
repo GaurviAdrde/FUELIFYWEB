@@ -1,0 +1,44 @@
+.new-orders-container {
+    padding: 20px;
+    background: #282c34;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color:#3a3f47;
+    text-align: center;
+  }
+
+  
+  .accept-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reject-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .accept-btn:hover,
+  .reject-btn:hover {
+    opacity: 0.9;
+  }
+  

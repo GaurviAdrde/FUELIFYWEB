@@ -1,0 +1,99 @@
+.service-provider-profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1f2937;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+.service-provider-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-provider-profile-form input,
+.service-provider-profile-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction:row;
+  align-self: center;
+  gap: 22px;
+  margin-bottom: 10px;
+}
+
+.checkbox-option {
+  font-size: 0.9rem;
+}
+
+.map-container {
+  height: 300px;
+  width: 100%;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.service-provider-profile-form button {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.service-provider-profile-form button:hover {
+  background-color: #1e7e34;
+}
+
+.form-buttons .cancel-button {
+  background-color: #dc3545;
+}
+
+.form-buttons  .cancel-button:hover {
+  background-color: #a71d2a;
+}
+
+.message {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.message.success {
+  background-color: green;
+  color: white;
+}
+
+.message.error {
+  background-color: red;
+  color: white;
+}
+
+
+
+/* Style the leaflet geocoder input box */
+.leaflet-control-geocoder-form input {
+   color: #000;                  /* Black text */
+}
+
+

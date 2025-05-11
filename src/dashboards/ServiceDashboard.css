@@ -1,0 +1,49 @@
+.service-dashboard {
+    padding: 20px;
+    background: #1f2937;
+  }
+  
+  .service-dashboard h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .dashboard-actions {
+    margin-top: 20px;
+  }
+  
+  .create-profile-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* blue color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-profile-button:hover {
+    background-color: #0056b3; /* darker blue on hover */
+  }
+  
+  
+  .service-nav {
+    margin: 1rem;
+  }
+  
+  .service-nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+  }
+  
+  .service-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .service-routes {
+    margin-top: 20px;
+  }
+  

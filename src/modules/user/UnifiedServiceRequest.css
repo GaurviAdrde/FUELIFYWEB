@@ -1,0 +1,99 @@
+.unified-service-wrapper {
+    padding: 2rem;
+    background-color:#c2d8e3;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .form-section {
+   background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .service-form label {
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-form input,
+  .service-form select {
+    padding: 0.8rem;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  .service-form input:focus,
+  .service-form select:focus {
+    border-color: #1d7874;
+    outline: none;
+  }
+  
+  .service-form input.auto-filled {
+    border-color: #28b5b5;
+    background-color: #232b43;
+  }
+  
+  .service-form button {
+    background-color: #1d7874;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .service-form button:hover {
+    background-color: #28b5b5;
+  }
+  
+
+  .provider-info{
+    color: #333;
+    background-color: #a9d5e4;
+    border: 2px solid #9cbac7;
+    border-radius: 10px;
+    
+  }
+
+
+  .map-section {
+    height: 400px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .map-message {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+  }
+  
+  .auto-filled {
+    background-color: #e0f7e0;
+  }
+  
